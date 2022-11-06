@@ -222,8 +222,18 @@ grupoH.addEventListener('click', () => {
     createCard("02/12", "sexta",
       createGame('south korea', '16:00', 'portugal') +
       createGame('ghana', '16:00', 'uruguay'), "3ª Rodada"
-    )
-
-
+    ) +
+    createCard("24/11", "QUINTA",
+      createGame('uruguay', '10:00', 'south korea') +
+      createGame('portugal', '13:00', 'ghana'), "1ª Rodada"
+    ) +
+    createCard("28/11", "segunda",
+      createGame('south korea', '10:00', 'ghana') +
+      createGame('portugal', '16:00', 'uruguay'), "2ª Rodada"
+    ) +
+    createCard("02/12", "sexta",
+      createGame('south korea', '16:00', 'portugal') +
+      createGame('ghana', '16:00', 'uruguay'), "3ª Rodada"
+    ) 
 })
 
