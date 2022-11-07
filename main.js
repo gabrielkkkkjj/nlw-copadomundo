@@ -49,8 +49,7 @@ grupoA.addEventListener('click', () => {
   document.querySelector('#cards').innerHTML =
     
     createCard("20/11", "domingo",
-      createGame('qatar', '10:00', 'senegal') +
-      createGame('brazil', '13:00', 'ecuador'), "1ª Rodada"
+      createGame('qatar', '10:00', 'senegal')
     ) +
     createCard("21/11", "segunda",
       createGame('qatar', '10:00', 'senegal') +

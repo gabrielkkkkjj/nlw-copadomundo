@@ -13,27 +13,6 @@
     --card-bg-color: #151313;
 }
 
-body.blue {
-    --card-color-primary: #1c46d2;
-    background-image: url(../images/BG-Blue.svg);
-    --card-bg-color: #202024;
-    background-position-y: -582px;
-}
-
-body.green {
-    --card-color-primary: #047c3f;
-    background-image: url(../images/BG-Green.svg);
-    --card-bg-color: #1a1f1b;
-    background-position-y: -200px;
-}
-
-body.yellow {
-    --card-color-primary: #f7dd43;
-    background-image: url(../images/BG-Yellow.svg);
-    --card-bg-color: #1d1c19;
-    background-position-y: -582px;
-}
-
 ul {
     list-style: none;
 }
@@ -61,7 +40,6 @@ body {
 
 header {
     margin-bottom: 15px;
-
 }
 
 #cards {
